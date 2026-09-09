@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-class MainTets{
+class MainTest{
     @Test
     void findsTwoRoots(){
         double[] roots = Main.solveQuadratic(1, -3, 2);
